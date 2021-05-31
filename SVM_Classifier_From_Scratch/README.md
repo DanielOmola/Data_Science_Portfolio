@@ -73,7 +73,7 @@ The project contains:
 	* module : ploter.py
 ```
 
-<a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/LSTM_Anomaly_Detection" target="_blank">Project Link</a>
+<a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/SVM_Classifier_From_Scratch" target="_blank">Project Link</a>
 	
 
 ### Datasets
@@ -98,7 +98,7 @@ If you chose the first installation method, make sure the prerequisites are avai
 #### Method - 1
 1. Clone the repo
 ```JS
-   git clone https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/LSTM_Anomaly_Detection
+   git clone https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/SVM_Classifier_From_Scratch
 ```
 2. Open the file below in Jupyter Notebook
 ```JS
@@ -110,7 +110,7 @@ If you chose the first installation method, make sure the prerequisites are avai
 (the easiest way if docker is already installed in your system)
 1. Clone the repo
 ```JS
-   git clone https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/LSTM_Anomaly_Detection
+   git clone https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/SVM_Classifier_From_Scratch
 ```
 2. Open the terminal and move to the cloned directory 
 ```JS
