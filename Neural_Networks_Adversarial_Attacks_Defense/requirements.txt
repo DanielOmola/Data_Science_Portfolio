@@ -1,0 +1,8 @@
+numpy
+pandas
+scipy
+seaborn
+torch
+torchvision
+setuptools
+
