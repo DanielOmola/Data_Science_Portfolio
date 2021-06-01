@@ -32,7 +32,7 @@ Each project contains a detailed README.md file to enable a full understanding a
     <li>
         <a href="#">Classification</a>
         <ul>
-            <li><a href="#description">Decision_Tree_Classifier_From_Scratch</a></li>
+            <li><a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/Decision_Tree_Classifier_From_Scratch">Decision_Tree_Classifier_From_Scratch</a></li>
         </ul>
         <ul>
             <li><a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/K_Nearest_Neighbors">K_Nearest_Neighbors</a></li>
