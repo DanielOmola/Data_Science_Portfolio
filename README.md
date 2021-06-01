@@ -21,16 +21,16 @@ Each project contains a detailed README.md file to enable a full understanding a
   <summary><h2>ML Algorithms from scratch</h2></summary>
 <ol>
     <li>
-        <a href="#Regression">Regression</a>
+        <a href="#">Regression</a>
         <ul>
-            <li><a href="#description">Decision_Tree_Regressor_From_Scratch</a></li>
+            <li><a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/Decision_Tree_Regressor_From_Scratch">Decision_Tree_Regressor_From_Scratch</a></li>
 		</ul>
         <ul>
-            <li><a href="#description">Linear_Regression_From_Scratch</a></li>
+            <li><a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/Linear_Regression_From_Scratch">Linear_Regression_From_Scratch</a></li>
         </ul>
     </li>
     <li>
-        <a href="#Classification">Classification</a>
+        <a href="#">Classification</a>
         <ul>
             <li><a href="#description">Decision_Tree_Classifier_From_Scratch</a></li>
         </ul>
@@ -38,13 +38,13 @@ Each project contains a detailed README.md file to enable a full understanding a
             <li><a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/K_Nearest_Neighbors">K_Nearest_Neighbors</a></li>
         </ul>
         <ul>
-            <li><a href="#description">Logistic_Regression_From_Scratch</a></li>
+            <li><a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/Logistic_Regression_From_Scratch">Logistic_Regression_From_Scratch</a></li>
         </ul>
         <ul>
-            <li><a href="#description">Naive_Bayes_Sentiment_Analysis</a></li>
+            <li><a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/Naive_Bayes_Sentiment_Analysis">Naive_Bayes_Sentiment_Analysis</a></li>
         </ul>
         <ul>
-            <li><a href="#description">SVM_Classifier_From_Scratch</a></li>
+            <li><a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/SVM_Classifier_From_Scratch">SVM_Classifier_From_Scratch</a></li>
         </ul>
     </li>
     <li>
@@ -62,10 +62,10 @@ Each project contains a detailed README.md file to enable a full understanding a
     <li>
         <a href="#Regression">Dimension Reduction</a>
         <ul>
-            <li><a href="#description">PCA_From_Scratch</a></li>
+            <li><a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/PCA_From_Scratch">PCA_From_Scratch</a></li>
         </ul>
         <ul>
-            <li><a href="#description">LDA_From_Scratch</a></li>
+            <li><a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/LDA_From_Scratch">LDA_From_Scratch</a></li>
         </ul>
     </li>	
 </ol>
@@ -87,7 +87,7 @@ Each project contains a detailed README.md file to enable a full understanding a
     <li>
       <a href="#getting-started">Tensor Flow</a>
       <ul>
-        <li><a href="#description">LSTM_Anomaly_Detection</a></li>
+        <li><a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/LSTM_Anomaly_Detection">LSTM_Anomaly_Detection</a></li>
       </ul>
     </li>
   </ol>
@@ -102,7 +102,7 @@ Each project contains a detailed README.md file to enable a full understanding a
     <li>
       <a href="#about-the-project">Plotly</a>
       <ul>
-        <li><a href="#description">Visualization_Corporate_Finance</a></li>
+        <li><a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/Visualization_Corporate_Finance">Visualization_Corporate_Finance</a></li>
       </ul>
     </li>
   </ol>
@@ -117,15 +117,15 @@ Each project contains a detailed README.md file to enable a full understanding a
     <li>
       <a href="#about-the-project">Spark</a>
       <ul>
-        <li><a href="#description">Word_Count</a></li>
+        <li><a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/Spark_Word_Count">Word_Count</a></li>
       </ul>
     </li>
     <li>
       <a href="#getting-started">Spark_ML</a>
       <ul>
-        <li><a href="#description">Flight_Delay_Prediction</a></li>
-        <li><a href="#description">Decision_Tree</a></li>
-        <li><a href="#description">Regression_Tree</a></li>
+        <li><a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/Spark_ML_Flight_Delay_Prediction">Flight_Delay_Prediction</a></li>
+        <li><a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/Spark_ML_Decision_Tree">Decision_Tree</a></li>
+        <li><a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/Spark_ML_Regression_Tree">Regression_Tree</a></li>
       </ul>
     </li>
 
@@ -137,24 +137,24 @@ Each project contains a detailed README.md file to enable a full understanding a
 
 <details open="open">
   <summary><h2>NoSQL</h2></summary>
-  <p><b>Work in progress</b></p>
+  
   <ol>
     <li>
       <a href="#about-the-project">MongoDB</a>
       <ul>
-        <li><a href="#description">MongoDB with Docker</a></li>
+        <li><a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/MongoDB_With_Docker">MongoDB with Docker</a></li>
       </ul>
     </li>
     <li>
       <a href="#getting-started">Neo4J</a>
       <ul>
-        <li><a href="#description">Neo4J with Docker</a></li>
+        <li><a href="#description">Neo4J with Docker <p><b>Work in progress</b></p></a></li>
       </ul>
     </li>
     <li>
       <a href="#getting-started">Couchbase</a>
       <ul>
-        <li><a href="#description">Couchbase with Docker</a></li>
+        <li><a href="#description">Couchbase with Docker <p><b>Work in progress</b></p></a></li>
       </ul>
     </li>
   </ol>
