@@ -72,7 +72,7 @@ The project contains:
 	* 2_Flight_Project_ML_Model_Selection.ipynb
 ```
 
-<a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/LSTM_Anomaly_Detection" target="_blank">Project Link</a>
+<a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/MongoDB_With_Docker" target="_blank">Project Link</a>
 	
 
 ### Datasets
@@ -96,7 +96,7 @@ From a financial research and journalistic perspective, this dataset is interest
 
 1. Clone the repo
 ```JS
-   git clone https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/LSTM_Anomaly_Detection
+   git clone https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/MongoDB_With_Docker
 ```
 2. Open a terminal and download MongoDB image with one of the command bellow.
 Note that, the second query should be used if you want a specific version of MongoDB (here the 4.2)
