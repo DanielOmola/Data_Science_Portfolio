@@ -157,8 +157,7 @@ Daniel OMOLA - daniel.omola@gmail.com
 <!-- Recommended links -->
 ## Recommended links
 
-* <a href="https://www.youtube.com/watch?v=nk2CQITm_eo" target="_blank">StatQuest: Linear Models Pt.1 - Linear Regression</a>
-* <a href="https://www.youtube.com/watch?v=Q81RR3yKn30" target="_blank">Regularization Part 1: Ridge (L2) Regression</a>
-* <a href="https://www.youtube.com/watch?v=NGf0voTMlcs" target="_blank">Regularization Part 2: Lasso (L1) Regression</a>
-* <a href="https://www.youtube.com/watch?v=1dKRdX9bfIo" target="_blank">Regularization Part 3: Elastic Net Regression</a>
-* <a href="https://www.youtube.com/watch?v=sDv4f4s2SB8&t=1138s" target="_blank">Gradient Descent, Step-by-Step</a>
+* <a href="https://www.youtube.com/watch?v=yIYKR4sgzI8" target="_blank">StatQuest: Logistic Regression</a>
+* <a href="https://www.youtube.com/watch?v=vN5cNN2-HWE" target="_blank">Logistic Regression Details Pt1: Coefficients</a>
+* <a href="https://www.youtube.com/watch?v=BfKanl1aSG0" target="_blank">Logistic Regression Details Pt 2: Maximum Likelihood</a>
+* <a href="https://www.youtube.com/watch?v=xxFYro8QuXA" target="_blank">Logistic Regression Details Pt 3: R-squared and p-value</a>
