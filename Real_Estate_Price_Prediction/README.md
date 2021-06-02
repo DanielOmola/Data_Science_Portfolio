@@ -10,7 +10,7 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<h3 align="center">French real estate price prediction</h3>
+<h3 align="center">French real estate prices prediction</h3>
 <p align="center">Are the DVF data set usefull for prices prediction?</p>
 <p align="center">
   <a href="https://executive-education.dauphine.psl.eu/formations/executive-master-diplome-universite/ia-science-donnees" target="_blank">
