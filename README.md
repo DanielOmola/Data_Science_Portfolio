@@ -18,7 +18,7 @@ Each project contains a detailed README.md file to enable a full understanding a
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
-  <summary><h2>ML Algorithms from scratch</h2></summary>
+  <summary><h2>ML projects</h2></summary>
 <ol>
     <li>
         <a href="#">Regression</a>
@@ -28,7 +28,10 @@ Each project contains a detailed README.md file to enable a full understanding a
         <ul>
             <li><a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/Linear_Regression_From_Scratch">Linear_Regression_From_Scratch</a></li>
         </ul>
-    </li>
+         <ul>
+            <li><a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/Real_Estate_Price_Prediction">Real_Estate_Price_Prediction</a></li>
+        </ul>
+	</li>
     <li>
         <a href="#">Classification</a>
         <ul>
@@ -70,7 +73,6 @@ Each project contains a detailed README.md file to enable a full understanding a
     </li>	
 </ol>
 </details>
-
 
 
 <!-- TABLE OF CONTENTS -->
