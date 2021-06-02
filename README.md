@@ -4,17 +4,18 @@
  
 # My Data Science Portfolio
 
+Here are some projects I'd like to share with you. They cover topics related to Machine Learning and Big Data 
+(Machine Learning algorithms from scratch, Neural Net Networks, Anomalies detection, Adversarial Attacks, NLP, Sentiment Analysis, Visualisation...)
+in the context of various industries (Real Estate, Finance, Airline...).
 
- 
-Here are some projects I'd like to share with you. They cover topics such as 
-Neural Net Networks, Anomalies detection, Adversarial Attacks, NLP, Visualisation...
 
 The purpose of my portfolio is to give an insight into what I can do and how I do it.
-All the projects would also be used in the context of the classes I teach at Institut Mines-Telecom and
-Paris Dauphine University (Data Management Certificat). 
+It will also serve as a teaching aid in the context of the classes I teach at Institut Mines-Telecom and
+Paris Dauphine University.
 
 Each project contains a detailed README.md file to enable a full understanding and make easier its usage.
-<p><b>You can open a link in new tab by doing a CTRL+click.</b></p>
+
+**You can open a link in new tab by doing a CTRL+click.**
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -22,14 +23,14 @@ Each project contains a detailed README.md file to enable a full understanding a
 <ol>
     <li>
         <a href="#">Regression</a>
+         <ul>
+            <li><a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/Real_Estate_Price_Prediction">Real_Estate_Price_Prediction</a></li>
+        </ul>
         <ul>
             <li><a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/Decision_Tree_Regressor_From_Scratch">Decision_Tree_Regressor_From_Scratch</a></li>
 		</ul>
         <ul>
             <li><a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/Linear_Regression_From_Scratch">Linear_Regression_From_Scratch</a></li>
-        </ul>
-         <ul>
-            <li><a href="https://github.com/DanielOmola/Data_Science_Portfolio/tree/main/Real_Estate_Price_Prediction">Real_Estate_Price_Prediction</a></li>
         </ul>
 	</li>
     <li>
@@ -148,15 +149,15 @@ Each project contains a detailed README.md file to enable a full understanding a
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Neo4J</a>
+      <a href="#getting-started">Neo4J (work in progress)</a>
       <ul>
-        <li><a href="#description">Neo4J with Docker <p><b>Work in progress</b></p></a></li>
+        <li><a href="#description">Neo4J with Docker</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Couchbase</a>
+      <a href="#getting-started">Couchbase (work in progress)</a>
       <ul>
-        <li><a href="#description">Couchbase with Docker <p><b>Work in progress</b></p></a></li>
+        <li><a href="#description">Couchbase with Docker</a></li>
       </ul>
     </li>
   </ol>
