@@ -9,7 +9,7 @@
 
 
 <!-- PROJECT LOGO -->
-<br />
+<br/>
 <h3 align="center">Decision Tree Classifier from scratch</h3>
 <p align="center">(performance compared with Sklearn implementation)</p>
 <p align="center">
