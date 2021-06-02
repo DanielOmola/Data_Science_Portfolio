@@ -149,8 +149,4 @@ Daniel OMOLA - daniel.omola@gmail.com
 <!-- Recommended links -->
 ## Recommended links
 
-* <a href="https://www.youtube.com/watch?v=nk2CQITm_eo" target="_blank">StatQuest: Linear Models Pt.1 - Linear Regression</a>
-* <a href="https://www.youtube.com/watch?v=Q81RR3yKn30" target="_blank">Regularization Part 1: Ridge (L2) Regression</a>
-* <a href="https://www.youtube.com/watch?v=NGf0voTMlcs" target="_blank">Regularization Part 2: Lasso (L1) Regression</a>
-* <a href="https://www.youtube.com/watch?v=1dKRdX9bfIo" target="_blank">Regularization Part 3: Elastic Net Regression</a>
-* <a href="https://www.youtube.com/watch?v=sDv4f4s2SB8&t=1138s" target="_blank">Gradient Descent, Step-by-Step</a>
+* <a href="https://www.data.gouv.fr/fr/datasets/demandes-de-valeurs-foncieres/" target="_blank">Demandes de valeurs foncières</a>
