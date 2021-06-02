@@ -6,14 +6,9 @@ Created on Thu Apr  1 10:45:01 2021
 """
 
 import plotly.graph_objects as go
-#from plotly.subplots import make_subplots
-#import numpy as np
-
 
 from sklearn.metrics import r2_score
 from sklearn.metrics import mean_squared_error
-
-#from collections import OrderedDict, defaultdict
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 
@@ -23,6 +18,7 @@ def check_model_performances(X,Y, model,show=False):
 	####################################################################################
 	#
 	#  Plot Model predictions vs. target and print MSE and R2
+    #  Inputs : X 
 	#
 	####################################################################################
 	"""

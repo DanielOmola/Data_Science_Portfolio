@@ -8,7 +8,6 @@ Created on Thu Apr  1 10:45:01 2021
 
 import numpy as np
 import pandas as pd
-#import datetime
 import dateutil.relativedelta
 
 def get_dropbox_link(year):
@@ -75,8 +74,9 @@ def get_market_data_by_year(year=2020, departements = None):
     
     # ############ read txt file
     #data = pd.read_csv('./data/valeursfoncieres-%d.txt'%year,sep='|',usecols=features_initial)
-    dvi = get_dropbox_link(year)
-    data = pd.read_csv(dvi,sep='|',usecols=features_initial,compression='zip')    
+    dvf = get_dropbox_link(year)
+    print(dvf)
+    data = pd.read_csv(dvf,sep='|',usecols=features_initial,compression='zip')    
     print(f"valeursfoncieres-{year} : \n\t-initial shape {str(data.shape)}")
     
     
@@ -176,11 +176,10 @@ def get_market_data(years = [2020],departements = ['92','95'],top_cities=10):
         df = get_market_data_by_year(year=y,departements = departements)
         data=data.append(df,ignore_index=True)
     if top_cities:
-        #count_cities = len(data['Commune'].unique())
         group_cities = data.groupby(['Commune']).Commune.count().sort_values(ascending=False)
         top = group_cities[:top_cities].index.to_list()
         data = data[data['Commune'].isin(top)]
-    #print(data.shape)
+
     print(f"\n=> Final Data Frame shape: {str(data.shape)}")
     get_prices(data)
     return data

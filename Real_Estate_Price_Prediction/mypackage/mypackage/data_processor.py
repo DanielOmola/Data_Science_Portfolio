@@ -9,8 +9,7 @@ warnings.filterwarnings('ignore')
 
 import pandas as pd
 import numpy as np
-#from sklearn.preprocessing import StandardScaler, MinMaxScaler 
-#from mypackage import ploter as plt
+
 import plotly.express as px
 
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
@@ -169,18 +168,14 @@ def feature_engineering(data):
             X_test.loc[:,c] = scaler.transform(X_test.loc[:,[c]])
         except:
             pass
-    dump(scaler, open('scaler.pkl', 'wb'))
-    """    
+    #dump(scaler, open('scaler.pkl', 'wb'))
+  
     X_train.to_csv('./data/X_train.csv',index=False)
     X_test.to_csv('./data/X_test.csv',index=False)
     y_train.to_csv('./data/y_train.csv',index=False)
     y_test.to_csv('./data/y_test.csv',index=False)
-    """   
-    X_train.to_csv('./data/X_train.csv.zip',index=False,compression="zip")
-    X_test.to_csv('./data/X_test.csv.zip',index=False,compression="zip")
-    y_train.to_csv('./data/y_train.csv.zip',index=False,compression="zip")
-    y_test.to_csv('./data/y_test.csv.zip',index=False,compression="zip")
-    
+    create_db_adresses()
+    load_db_adresses()
     return X_train,X_test,y_train,y_test
 
 
@@ -216,7 +211,7 @@ def plot_NA(df):
 
 
 def create_db_adresses():
-    bdd = sqlite3.connect('../data/base_adresses.db')
+    bdd = sqlite3.connect('./data/base_adresses.db')
     requeteur = bdd.cursor()
     sql_sup_table_n = "DROP TABLE IF EXISTS adresse;"
     sql_table_adresse = """
@@ -233,23 +228,21 @@ def create_db_adresses():
     bdd.commit()
 
 def load_db_adresses():
-    bdd = sqlite3.connect('../data/base_adresses.db')
+    bdd = sqlite3.connect('./data/base_adresses.db')
     requeteur = bdd.cursor()
     
-    data = pd.read_csv('../data/X_train.csv.zip',compression="zip",usecols=['Commune','Type de voie','Voie'])
-    data=data.append(pd.read_csv('../data/X_test.csv.zip',compression="zip",usecols=['Commune','Type de voie','Voie']))
-    #data['key'] = data[['Commune','Type de voie','Voie']].apply(lambda r : "".join(r),axis=1)
+    data = pd.read_csv('./data/X_train.csv',usecols=['Commune','Type de voie','Voie'])
+    data=data.append(pd.read_csv('./data/X_test.csv',usecols=['Commune','Type de voie','Voie']))
     data=data.drop_duplicates()
     data['info'] = data[['Commune','Type de voie','Voie']].apply(lambda r : tuple(r),axis=1)
     info = data['info'].to_list()
     q = ",".join(map(lambda t : str(t),info))
     sql = "INSERT INTO adresse (commune, type_voie, voie) VALUES %s;"%q
-    print(sql)
     requeteur.execute(sql)
     bdd.commit()
 
 def get_commune():
-    bdd = sqlite3.connect('../data/base_adresses.db')
+    bdd = sqlite3.connect('./data/base_adresses.db')
     requeteur = bdd.cursor()
     sql = "select Commune from adresse;"
     requeteur.execute(sql)
@@ -258,7 +251,7 @@ def get_commune():
     print(resultat)
 
 def get_voie(commune):
-    bdd = sqlite3.connect('../data/base_adresses.db')
+    bdd = sqlite3.connect('./data/base_adresses.db')
     requeteur = bdd.cursor()
     sql = "SELECT DISTINCT Voie from adresse WHERE Commune='%s';"%commune
     print(sql)
@@ -268,7 +261,7 @@ def get_voie(commune):
     print(resultat)
 
 def get_type_voie(commune):
-    bdd = sqlite3.connect('../data/base_adresses.db')
+    bdd = sqlite3.connect('./data/base_adresses.db')
     requeteur = bdd.cursor()
     sql = """SELECT DISTINCT type_voie from adresse WHERE Commune='%s';"""%commune
     print(sql)
@@ -278,12 +271,10 @@ def get_type_voie(commune):
     print(resultat)
 
 def get_adresse(commune):
-    bdd = sqlite3.connect('../data/base_adresses.db')
+    bdd = sqlite3.connect('./data/base_adresses.db')
     requeteur = bdd.cursor()
     sql = """SELECT DISTINCT type_voie, Voie from adresse WHERE Commune='%s';"""%commune
-    #print(sql)
     requeteur.execute(sql)
     resultat = requeteur.fetchall()
     bdd.close()
-    #print(resultat)
     return resultat
