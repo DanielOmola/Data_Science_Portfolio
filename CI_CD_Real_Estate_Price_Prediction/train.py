@@ -17,9 +17,9 @@ import os
 
 # --------- Chose the periode
 
-# years = [2020,2019,2018,2017,2016,2015,2014]
+years = [2020,2019,2018,2017,2016,2015,2014]
 # years = [2020]
-years = [2020,2019,2018,2017]
+# years = [2020,2019,2018,2017]
 
 
 # --------- Chose the area with departement code
